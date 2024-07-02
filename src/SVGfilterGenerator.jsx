@@ -63,7 +63,8 @@ const SVGfilterGenerator = () => {
         placeholder="enter color"
       />
       <p>Add this css</p>
-      <div>filter:"{Filter}"</div>
+      <div>filter:{Filter}</div>
+      <img src={icon} alt="icon" style={{ filter: Filter }} />
     </section>
   );
 };
