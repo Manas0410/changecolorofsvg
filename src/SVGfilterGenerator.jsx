@@ -87,7 +87,8 @@ const SVGfilterGenerator = () => {
         <span>
           You can fill ur desired color in input box and generate filter of the
           color u inpur which u can us to apply color on ur desired UI
-          components like SVGs and many more
+          components like SVGs and many more, by simply adding this filter css
+          to ur {"<img/> "}tag
         </span>
       </p>
       <p className="text-sm text-gray-500 max-w-[760px]">
