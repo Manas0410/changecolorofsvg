@@ -55,7 +55,7 @@ const SVGfilterGenerator = () => {
           value={color}
           onChange={(e) => setColor(e.target.value)}
           type="text"
-          placeholder="Enter the color here..."
+          placeholder="Enter the color here in any format , name , rgb() or #hexcode ..."
           name="input"
           className="input"
         />
