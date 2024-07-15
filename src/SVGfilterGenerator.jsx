@@ -96,7 +96,7 @@ const SVGfilterGenerator = () => {
         <span>
           It is recommended that the starting color needs to be black. If your
           icon set isn't black you can prepend{" "}
-          <u className=" text-blue-400">"brightness(0).saturate(100%)"</u> to
+          <u className=" text-blue-400">"brightness(0) saturate(100%)"</u> to
           your filter property which will first turn the icon set to black.
         </span>
       </p>
